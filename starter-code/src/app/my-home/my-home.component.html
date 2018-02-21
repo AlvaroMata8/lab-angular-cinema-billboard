@@ -1,0 +1,16 @@
+<div class="logo">
+  <img src={{logo}} alt="" >
+<h1>IRONCINEMA</h1></div>
+
+
+  <div *ngFor="let m of moviesList" class="card">
+    <h3>Sala - {{m.id}}</h3>
+    <img src="{{m.poster}}" width="100%">
+    <div class="container">
+      <a [routerLink]="['/movie/' + m.id]">
+        <h4>
+          <b>{{m.title}}</b>
+        </h4>
+      </a>
+    </div>
+  </div>

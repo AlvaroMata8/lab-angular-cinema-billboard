@@ -1,0 +1,18 @@
+.card {
+  width: 15%;
+  float: left;
+  padding: 0 1%;
+  margin: 0 1%;
+  text-align: center;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.logo{
+    text-align: center;
+}
+
+img{
+    border: 1px solid red;
+}
